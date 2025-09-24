@@ -51,7 +51,7 @@ const Contact = () => {
         <div className="contact-info">
           <h2>Reach Us</h2>
           <p><strong>Address:</strong> GLOBAL BUSINESS HUB, 812, Kharadi, Pune, Maharashtra 411014</p>
-          <p><strong>Phone:</strong> +1 234 567 890</p>
+          <p><strong>Phone:</strong> +91 234 567 890</p>
           <p><strong>Email:</strong> contact@formonex.com</p>
           <div className="map">
             <iframe

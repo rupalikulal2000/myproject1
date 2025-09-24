@@ -2,17 +2,13 @@ import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 
 // Correct paths to src/assets
-import device1 from "../assets/device1.png";
-import device2 from "../assets/device2.png";
-import logo from "../assets/logo.png";
-import simplicityLogo from "../assets/simplicityLogo.png";
-import simplicity1 from "../assets/simplicity1.png";
-import simplicity2 from "../assets/simplicity2.png";
-import supportLogo from "../assets/supportLogo.png";
-import image1 from "../assets/image1.png";
-import image2 from "../assets/image2.png";
-import pricingLogo from "../assets/pricingLogo.png";
-import pricing1 from "../assets/pricing1.png";
+import device1 from "../assets/device1.jpg";
+import device2 from "../assets/device2.webp";
+import simplicity1 from "../assets/simplicity1.jpg";
+import simplicity2 from "../assets/simplicity2.webp";
+import image1 from "../assets/image1.GIF";
+import image2 from "../assets/image2.jpg";
+import pricing1 from "../assets/pricing.webp";
 
 export default function InnovationPage() {
   const sectionStyle = { marginBottom: "5rem" };
@@ -34,17 +30,18 @@ export default function InnovationPage() {
           Streamline unorganized sector of the food industry
         </p>
         {/* Innovation Title & Logo */}
-        <Row className="align-items-center mt-4 mb-4 justify-content-center">
-          <Col md={8}>
+      
+        {/* Innovation Title & Logo */}
+        <Row className="align-items-center mt-4 mb-4">
+          <Col md={8} className="text-start">
             <h2 className="fw-semibold">Innovation</h2>
             <p style={{ color: "#666" }}>
               The major force behind our success has always been constant research & innovation.
             </p>
           </Col>
-          <Col md={4} className="text-md-end">
-            <img src={logo} alt="Innovation Logo" style={{ width: "140px", height: "140px" }} />
-          </Col>
+          
         </Row>
+
       </Container>
 
       {/* Innovation Images Section */}
@@ -72,9 +69,7 @@ export default function InnovationPage() {
               We believe in creating solutions that come without any confusing instruction manuals.
             </p>
           </Col>
-          <Col md={4} className="text-md-end">
-            <img src={simplicityLogo} alt="Simplicity Logo" style={{ width: "140px", height: "140px" }} />
-          </Col>
+          
         </Row>
         <Row className="g-4">
           <Col md={6}>
@@ -99,9 +94,7 @@ export default function InnovationPage() {
               We always ensure that our restaurant partners are heard & their problems resolved.
             </p>
           </Col>
-          <Col md={4} className="text-md-end">
-            <img src={supportLogo} alt="Support Logo" style={{ width: "140px", height: "140px" }} />
-          </Col>
+          
         </Row>
         <Row className="g-4">
           <Col md={6}>
@@ -126,9 +119,7 @@ export default function InnovationPage() {
               We are a strong believer in transparent & cost-effective pricing of technology.
             </p>
           </Col>
-          <Col md={4} className="text-md-end">
-            <img src={pricingLogo} alt="Pricing Logo" style={{ width: "140px", height: "140px" }} />
-          </Col>
+          
         </Row>
         <Row className="g-4">
           <Col md={12}>
