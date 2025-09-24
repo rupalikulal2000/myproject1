@@ -81,7 +81,7 @@ export default function FoodHeroSection() {
           {/* Right Image with Overlays */}
           <Col md={6} className="text-center">
             <div style={styles.imageWrapper}>
-              <img src="hero-image.avif" alt="Food Hero"  style={styles.heroImage} className="img-fluid" />
+              <img src="hero-image.avif" alt="Image"  style={styles.heroImage} className="img-fluid" />
 
               {/* Floating Boxes with icons */}
               <div style={{ ...styles.box, ...styles.deliveryBox }}>
