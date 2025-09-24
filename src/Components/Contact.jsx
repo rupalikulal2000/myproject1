@@ -52,7 +52,7 @@ const Contact = () => {
           <h2>Reach Us</h2>
           <p><strong>Address:</strong> GLOBAL BUSINESS HUB, 812, Kharadi, Pune, Maharashtra 411014</p>
           <p><strong>Phone:</strong> +91 234 567 890</p>
-          <p><strong>Email:</strong> contact@formonex.com</p>
+          <p><strong>Email:</strong> Foodie.com</p>
           <div className="map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d121040.14552902068!2d73.86829008398377!3d18.55127841065314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sformonix%20solutions%20map%20location!5e0!3m2!1sen!2sin!4v1758597023833!5m2!1sen!2sin"
