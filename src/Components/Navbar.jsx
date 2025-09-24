@@ -70,12 +70,12 @@ const NavigationBar = () => {
       </Navbar>
 
       {/* Modal for Login/SignUp */}
-      <Modal show={showModal} onHide={handleClose} centered>
+      <Modal show={showModal} onHide={handleClose} centered >
         <Modal.Header closeButton>
-          <Modal.Title className="text-center w-100">{isLogin ? "Login" : "Sign Up"}</Modal.Title>
+          <Modal.Title className="text-center w-100"  style={{color:"red"}}>{isLogin ? "Login" : "Sign Up" }</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Form>
+          <Form >
             {!isLogin && (
               <Form.Group className="mb-3" controlId="formName">
                 <Form.Label>Name</Form.Label>
@@ -84,7 +84,7 @@ const NavigationBar = () => {
             )}
             <Form.Group className="mb-3" controlId="formEmail">
               <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" required />
+              <Form.Control type="email" placeholder="Example@gmail.com" required />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formPassword">
               <Form.Label>Password</Form.Label>
