@@ -79,7 +79,7 @@ export default function AboutUs() {
         </div>
 
         {/* Main heading */}
-        <h1 className="fw-bold mb-2" style={{ fontSize: "2.1rem", lineHeight: "1.1" }}>
+        <h1 className="fw-bold mb-2" style={{ fontSize: "2.2rem", lineHeight: "1.1" }}>
           Foodie: Making restaurants smarter, one bill at a time.
         </h1>
 
